@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shijujohn.musicapp.LibraryActivity">
+
+    <Button
+        android:id="@+id/button_artists"
+        style="@style/home_buttons"
+        android:text="@string/artists_button_text" />
+
+    <Button
+        android:id="@+id/button_albums"
+        style="@style/home_buttons"
+        android:text="@string/albums_button_text"
+        android:layout_below="@+id/button_artists"/>
+
+    <Button
+        android:id="@+id/button_Songs"
+        style="@style/home_buttons"
+        android:text="@string/songs_button_text"
+        android:layout_below="@+id/button_albums"/>
+
+    <Button
+        android:id="@+id/button_play_list"
+        style="@style/home_buttons"
+        android:text="@string/play_list_button_text"
+        android:layout_below="@+id/button_Songs"/>
+    <TextView
+        style="@style/descr_text"
+        android:text="@string/descr_albums"
+        android:layout_below="@+id/button_play_list"/>
+
+    <Button
+        style="@style/home_buttons"
+        android:layout_alignParentBottom="true"
+        android:text="@string/now_playing_button_text"
+        android:id="@+id/button_now_playing_return"/>
+
+
+</RelativeLayout>

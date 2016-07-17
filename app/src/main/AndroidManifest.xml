@@ -15,6 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PlayNowActivity"
+            android:label="@string/playing_now_activity_name"/>
+        <activity android:name=".LibraryActivity"
+            android:label="@string/library_activity_name"/>
+        <activity android:name=".SearchActivity"
+            android:label="@string/search_activity_name" />
+        <activity android:name=".SettingsActivity"
+            android:label="@string/settings_activity_name"/>
+        <activity android:name=".ArtisitActivity"
+            android:label="@string/artists_activity_name"/>
+        <activity android:name=".AlbumActivity"
+            android:label="@string/albums_activity_name"/>
+        <activity android:name=".SongsActivity"
+            android:label="@string/songs_activity_name"/>
+        <activity android:name=".PlayListActivity"
+            android:label="@string/playlists_activity_name"></activity>
     </application>
 
 </manifest>

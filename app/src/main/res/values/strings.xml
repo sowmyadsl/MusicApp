@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">MusicApp</string>
+    <string name="app_name">Music App</string>
+    <string name="library_activity_name">Library</string>
+    <string name="playing_now_activity_name">Playing Now</string>
+    <string name="search_activity_name">Search Music</string>
+    <string name="settings_activity_name">Settings</string>
+    <string name="artists_activity_name">Artists</string>
+    <string name="albums_activity_name">Albums</string>
+    <string name="songs_activity_name">Songs</string>
+    <string name="playlists_activity_name">Play Lists</string>
+
+    <string name="now_playing_button_text">Now Playing</string>
+    <string name="library_button_text">Library</string>
+    <string name="settings_button_text">Settings</string>
+    <string name="search_button_text">Search</string>
+    <string name="artists_button_text">Artists</string>
+    <string name="albums_button_text">Albums</string>
+    <string name="songs_button_text">Songs</string>
+    <string name="play_list_button_text">PlayLists</string>
+
+    <string name="descr_main">The main screen shown when the app is opened. User can select the
+        Now playing option and see the song playing in the background</string>
+    <string name="descr_playnow">This screen displays the current playing track
+        along with the player controls</string>
+    <string name="descr_library">This screen allows users to select a track based on artists or albums,
+    or the user can select a previously created playlist</string>
+    <string name="descr_search">User can search for a song stored in the device.</string>
+    <string name="descr_settings">Displays the various settings for
+        customizing the UI, player behaviour etc.</string>
+    <string name="descr_albums">Displays tracks based on albums</string>
+    <string name="descr_artists">Displays tracks based on artists</string>
+    <string name="descr_songs">Displays tracks based on file names</string>
+    <string name="descr_playlists">Displays previously created playlists. User can play,
+        edit or delete a playlist</string>
 </resources>
