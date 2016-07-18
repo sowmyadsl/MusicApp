@@ -12,7 +12,7 @@ public class ArtisitActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artisit);
-        Button buttonNowPlaying = (Button)findViewById(R.id.button_now_playing_return);
+        Button buttonNowPlaying = (Button) findViewById(R.id.button_now_playing_return);
         buttonNowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

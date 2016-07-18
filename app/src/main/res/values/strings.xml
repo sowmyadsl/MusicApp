@@ -24,8 +24,8 @@
     the user to set preferences.</string>
     <string name="descr_playnow">This screen displays the current playing track
         along with the player controls</string>
-    <string name="descr_library">This screen allows users to select a track based on artists or albums,
-    or the user can select a previously created playlist</string>
+    <string name="descr_library">This screen allows users to select a track based on artists
+        or albums, or the user can select a previously created playlist</string>
     <string name="descr_search">User can search for a song stored in the device.</string>
     <string name="descr_settings">Displays the various settings for
         customizing the UI, player behaviour etc.</string>

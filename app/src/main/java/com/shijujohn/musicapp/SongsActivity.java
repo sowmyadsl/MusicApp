@@ -13,7 +13,7 @@ public class SongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs);
 
-        Button buttonNowPlaying = (Button)findViewById(R.id.button_now_playing_return);
+        Button buttonNowPlaying = (Button) findViewById(R.id.button_now_playing_return);
         buttonNowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

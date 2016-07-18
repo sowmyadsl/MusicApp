@@ -4,46 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.shijujohn.musicapp.LibraryActivity">
+
     <ImageView
         style="@style/background_image_style"
-        android:src="@drawable/music_background"/>
+        android:src="@drawable/music_background" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <LinearLayout
-        style="@style/layout_style"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
 
-    <Button
-        android:id="@+id/button_artists"
-        style="@style/home_buttons"
-        android:text="@string/artists_button_text" />
+        <LinearLayout
+            style="@style/layout_style"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_albums"
-        style="@style/home_buttons"
-        android:text="@string/albums_button_text"/>
+            <Button
+                android:id="@+id/button_artists"
+                style="@style/home_buttons"
+                android:text="@string/artists_button_text" />
 
-    <Button
-        android:id="@+id/button_Songs"
-        style="@style/home_buttons"
-        android:text="@string/songs_button_text"/>
+            <Button
+                android:id="@+id/button_albums"
+                style="@style/home_buttons"
+                android:text="@string/albums_button_text" />
 
-    <Button
-        android:id="@+id/button_play_list"
-        style="@style/home_buttons"
-        android:text="@string/play_list_button_text"/>
-    <TextView
-        style="@style/descr_text"
-        android:text="@string/descr_library"/>
+            <Button
+                android:id="@+id/button_Songs"
+                style="@style/home_buttons"
+                android:text="@string/songs_button_text" />
 
-    <Button
-        style="@style/home_buttons"
-        android:text="@string/now_playing_button_text"
-        android:id="@+id/button_now_playing_return"/>
+            <Button
+                android:id="@+id/button_play_list"
+                style="@style/home_buttons"
+                android:text="@string/play_list_button_text" />
 
-    </LinearLayout>
+            <TextView
+                style="@style/descr_text"
+                android:text="@string/descr_library" />
+
+            <Button
+                android:id="@+id/button_now_playing_return"
+                style="@style/home_buttons"
+                android:text="@string/now_playing_button_text" />
+
+        </LinearLayout>
     </ScrollView>
 </FrameLayout>
