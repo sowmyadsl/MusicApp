@@ -19,7 +19,9 @@
     <string name="play_list_button_text">PlayLists</string>
 
     <string name="descr_main">The main screen shown when the app is opened. User can select the
-        Now playing option and see the song playing in the background</string>
+        Now playing option and see the song playing in the background. Library option is to see the
+    tracks stored in the device. Search is for searching a particular title. And settings is for
+    the user to set preferences.</string>
     <string name="descr_playnow">This screen displays the current playing track
         along with the player controls</string>
     <string name="descr_library">This screen allows users to select a track based on artists or albums,
@@ -32,4 +34,5 @@
     <string name="descr_songs">Displays tracks based on file names</string>
     <string name="descr_playlists">Displays previously created playlists. User can play,
         edit or delete a playlist</string>
+    <string name="background_image_content_descr">background image</string>
 </resources>
